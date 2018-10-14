@@ -1,0 +1,17 @@
+{
+  "name": "portfolio_website",
+  "version": "1.0.0",
+  "description": "Responsive Portfolia Website",
+  "main": "index.js",
+  "homepage": "https://torymadd.github.io/",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ -- recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Tory Adderley",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.9.2"
+  }
+}
