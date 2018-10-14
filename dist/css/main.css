@@ -439,6 +439,11 @@ main#home h1 {
     font-size: 5rem;
   }
 
+  .text-secondary {
+    margin-top: 1rem;
+    /*this*/
+  }
+
   .projects {
     grid-template-columns: 1fr;
   }
