@@ -152,6 +152,7 @@ body {
 
 body#bg-img {
   background: url(../img/giphy.gif);
+  background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
