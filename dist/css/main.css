@@ -423,6 +423,11 @@ main#home h1 {
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .text-secondary {
+    margin-top: 1rem;
+    /*this*/
+  }
 }
 
 @media screen and (max-width: 500px) {
