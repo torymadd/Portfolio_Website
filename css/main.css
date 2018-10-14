@@ -86,7 +86,7 @@
   height: 250px;
   background: url("../img/portrait.jpg");
   border-radius: 50%;
-  border: solid 3px #515151;
+  border: solid 3px #eece1a;
 }
 
 .menu .nav-item {
@@ -295,7 +295,7 @@ main#home h1 {
 }
 
 .projects img:hover {
-  opacity: 0.5;
+  /*opacity: 0.5;*/
   border-color: #444;
   /*eece1a*/
   transition: all 0.5s ease-out;
@@ -338,9 +338,9 @@ main#home h1 {
   margin-bottom: 0.3rem;
 }
 
+/* When mouse hovers over btn */
 .btn:hover,
-.btn-dark:hover,
-.btn-light:hover {
+.btn-dark:hover {
   background: #eece1a;
   color: #000;
 }
